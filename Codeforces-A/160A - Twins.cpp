@@ -16,8 +16,6 @@ int main(){
     sort(arr,arr+n, greater<int>());
     float res = sum/2;
 
-    // cout << res;
-
    for(int i  = 0;i<n;++i){
         sum2+=arr[i];
         if(sum2 > res){
